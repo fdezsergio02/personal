@@ -1,6 +1,6 @@
 ! Title: Filtro DNS de Sergio
 ! Description: Filtro DNS para diferentes propósitos (evadir bloqueos de LaLiga, redirecciones, etc)
-! Version: 2025.05.07.1
+! Version: 2025.05.12.1
 ! -------------------------------------------------------------------------------------------------- !
 ! BunnyCDN
 ||cdn.bsky.app^$dnsrewrite=NOERROR;A;185.93.3.244
@@ -12,6 +12,7 @@
 ||ciudadreal.com^$dnsrewrite=NOERROR;A;199.34.228.49
 ||cobalt.tools^$dnsrewrite=NOERROR;A;199.34.228.49
 ||dnscheck.tools^$dnsrewrite=NOERROR;A;199.34.228.49
+||genpass.net^$dnsrewrite=NOERROR;A;199.34.228.49
 ||imgbb.com^$dnsrewrite=NOERROR;A;199.34.228.49
 ||intercambiosvirtuales.org^$dnsrewrite=NOERROR;A;199.34.228.49
 ||nosekefik.com^$dnsrewrite=NOERROR;A;199.34.228.49
@@ -20,6 +21,7 @@
 ||rae.es^$dnsrewrite=NOERROR;A;199.34.228.49
 ||sconde.net^$dnsrewrite=NOERROR;A;199.34.228.49
 ||tdtchannels.com^$dnsrewrite=NOERROR;A;199.34.228.49
+||ublockorigin.com^$dnsrewrite=NOERROR;A;199.34.228.49
 ! -------------------------------------------------------------------------------------------------- !
 ! JCCM
 ||accesoescuelasconectadas.castillalamancha.es^$dnsrewrite=NOERROR;A;10.129.248.50
